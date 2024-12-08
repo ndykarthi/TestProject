@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests" thread-count="1" verbose = "5">
+	<parameter name="testSuiteName" value="Copyright"></parameter>
+ 	<parameter name="testCaseName" value="Copyright"></parameter>
+ 
+  <test name = "Clinical Aide1">
+    <parameter name="SOR" value="WEBPAS"></parameter>
+ 	<classes>
+	  	<class name="com.dedalus.catestcases_windows.Copyright"/> 
+    </classes>
+  </test> 
+   
+   <test name = "Clinical Aide2">
+  <parameter name="SOR" value="WEBPAS"></parameter>
+	<parameter name="PlatformName" value="iOS"></parameter>
+ 	<parameter name="DeviceName" value="iPhone 13"></parameter> 
+	<parameter name="PlatformVersion" value="15"></parameter> 
+	<parameter name="DeviceOrientation" value="LANDSCAPE"></parameter>
+ 	<classes>
+	  	<class name="com.dedalus.catestcases.Copyright"/> 
+    </classes>
+  </test>
+   
+ 
+    <test name = "Clinical Aide3">
+    <parameter name="SOR" value="WEBPAS"></parameter>
+	<parameter name="PlatformName" value="iOS"></parameter>
+ 	<parameter name="DeviceName" value="iPad 10.2 (2021)"></parameter> 
+	<parameter name="PlatformVersion" value="15"></parameter> 
+	<parameter name="DeviceOrientation" value="LANDSCAPE"></parameter>
+ 	<classes>
+	  	<class name="com.dedalus.catestcases.Copyright"/> 
+    </classes>
+  </test> 
+ 
+  <test name = "Clinical Aide4">
+  <parameter name="SOR" value="WEBPAS"></parameter>
+	<parameter name="PlatformName" value="Android"></parameter>
+ 	<parameter name="DeviceName" value="Galaxy Tab A8"></parameter> 
+	<parameter name="PlatformVersion" value="13"></parameter> 
+	<parameter name="DeviceOrientation" value="PORTRAIT"></parameter>
+ 	<classes>
+	  	<class name="com.dedalus.catestcases.Copyright"/> 
+    </classes>
+  </test> 
+
+   <test name = "Clinical Aide5">
+   <parameter name="SOR" value="WEBPAS"></parameter>
+	<parameter name="PlatformName" value="Android"></parameter>
+ 	<parameter name="DeviceName" value="Galaxy S24 Ultra"></parameter> 
+	<parameter name="PlatformVersion" value="14"></parameter> 
+	<parameter name="DeviceOrientation" value="LANDSCAPE"></parameter>
+ 	<classes>
+	  	<class name="com.dedalus.catestcases.Copyright"/> 
+    </classes>
+  </test> 
+   
+   <test name = "Clinical Aide6">
+   <parameter name="SOR" value="WEBPAS"></parameter>
+	<parameter name="PlatformName" value="Android"></parameter>
+ 	<parameter name="DeviceName" value="Pixel 8 Pro"></parameter> 
+	<parameter name="PlatformVersion" value="15"></parameter> 
+	<parameter name="DeviceOrientation" value="PORTRAIT"></parameter>
+ 	<classes>
+	  	<class name="com.dedalus.catestcases.Copyright"/> 
+    </classes>
+  </test> 
+    
+ </suite>
